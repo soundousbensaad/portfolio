@@ -1,0 +1,35 @@
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.desc {
+  margin: 10px 0;
+}
+
+.tech {
+  background-color: #2563eb;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2563eb;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .home {
+    padding: 20px;
+  }
+}

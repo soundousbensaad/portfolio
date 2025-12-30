@@ -1,0 +1,58 @@
+.contact {
+  min-height: 50vh;
+  padding: 50px 20px;
+  background: #ffe4e6; /* وردي فاتح */
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #d946ef;
+}
+
+.info {
+  font-size: 1rem;
+  color: #9333ea;
+  margin-bottom: 15px;
+}
+
+.info a {
+  color: #f472b6;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #fbcfe8;
+}
+
+.form button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #f472b6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #e11d48;
+}

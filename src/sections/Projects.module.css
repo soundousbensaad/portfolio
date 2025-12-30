@@ -1,0 +1,19 @@
+.projects {
+  min-height: 100vh;
+  padding: 50px 20px;
+  background: #fff0f6; /* وردي فاتح */
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #d946ef;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
